@@ -37,6 +37,7 @@
 		FC368198226E00D40073BE81 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = FC368197226E00D40073BE81 /* fishhook.h */; };
 		FC36819A226E00D40073BE81 /* UnC0VerDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = FC368199226E00D40073BE81 /* UnC0VerDylib.h */; };
 		FC36819C226E00D40073BE81 /* UnC0VerDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = FC36819B226E00D40073BE81 /* UnC0VerDylib.m */; };
+		FC3681A6226E00F40073BE81 /* Undecimus-v3.0.0.ipa in Resources */ = {isa = PBXBuildFile; fileRef = FC3681A5226E00F40073BE81 /* Undecimus-v3.0.0.ipa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		FC368197226E00D40073BE81 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		FC368199226E00D40073BE81 /* UnC0VerDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnC0VerDylib.h; sourceTree = "<group>"; };
 		FC36819B226E00D40073BE81 /* UnC0VerDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnC0VerDylib.m; sourceTree = "<group>"; };
+		FC3681A5226E00F40073BE81 /* Undecimus-v3.0.0.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Undecimus-v3.0.0.ipa"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		FC36814D226E00D40073BE81 /* TargetApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC3681A5226E00F40073BE81 /* Undecimus-v3.0.0.ipa */,
 				FC36814E226E00D40073BE81 /* put ipa or app here */,
 			);
 			name = TargetApp;
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC36814C226E00D40073BE81 /* MDConfig.plist in Resources */,
+				FC3681A6226E00F40073BE81 /* Undecimus-v3.0.0.ipa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -587,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -720,6 +724,7 @@
 				DEVELOPMENT_TEAM = ML9NWM8SSX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UnC0Ver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_DEFAULT_BUNDLEID = NO;
@@ -741,6 +746,7 @@
 				DEVELOPMENT_TEAM = ML9NWM8SSX;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UnC0Ver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_DEFAULT_BUNDLEID = NO;
